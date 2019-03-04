@@ -1,9 +1,9 @@
 //
-//  GameViewController.swift
-//  Birds
+//  GameScene.swift
+//  Angry Birds
 //
-//  Created by Johannes Ruof on 18.10.17.
-//  Copyright © 2017 RUME Academy. All rights reserved.
+//  Created by Ant Milner on 04/03/2019.
+//  Copyright © 2019 Ant Milner. All rights reserved.
 //
 
 import UIKit
@@ -32,24 +32,4 @@ class GameViewController: UIViewController {
         }
     }
 
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }

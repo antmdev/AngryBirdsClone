@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
-//  Birds
+//  GameScene.swift
+//  Angry Birds
 //
-//  Created by Johannes Ruof on 18.10.17.
-//  Copyright © 2017 RUME Academy. All rights reserved.
+//  Created by Ant Milner on 04/03/2019.
+//  Copyright © 2019 Ant Milner. All rights reserved.
 //
 
 import UIKit

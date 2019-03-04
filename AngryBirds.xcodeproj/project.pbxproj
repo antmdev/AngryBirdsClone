@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F236F32222DCF7A00229EA4 /* BirdTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F236F31222DCF7A00229EA4 /* BirdTileSet.sks */; };
 		A65DC4961F977BDD00C5F802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DC4951F977BDD00C5F802 /* AppDelegate.swift */; };
 		A65DC4981F977BDD00C5F802 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A65DC4971F977BDD00C5F802 /* GameScene.sks */; };
-		A65DC49A1F977BDD00C5F802 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A65DC4991F977BDD00C5F802 /* Actions.sks */; };
 		A65DC49C1F977BDD00C5F802 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DC49B1F977BDD00C5F802 /* GameScene.swift */; };
 		A65DC49E1F977BDD00C5F802 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DC49D1F977BDD00C5F802 /* GameViewController.swift */; };
 		A65DC4A11F977BDD00C5F802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65DC49F1F977BDD00C5F802 /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F236F31222DCF7A00229EA4 /* BirdTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BirdTileSet.sks; sourceTree = "<group>"; };
 		A65DC4921F977BDD00C5F802 /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65DC4951F977BDD00C5F802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65DC4971F977BDD00C5F802 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A65DC4991F977BDD00C5F802 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A65DC49B1F977BDD00C5F802 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A65DC49D1F977BDD00C5F802 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A65DC4A01F977BDD00C5F802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 			children = (
 				A65DC4951F977BDD00C5F802 /* AppDelegate.swift */,
 				A65DC4971F977BDD00C5F802 /* GameScene.sks */,
-				A65DC4991F977BDD00C5F802 /* Actions.sks */,
 				A65DC49B1F977BDD00C5F802 /* GameScene.swift */,
 				A65DC49D1F977BDD00C5F802 /* GameViewController.swift */,
 				A65DC49F1F977BDD00C5F802 /* Main.storyboard */,
 				A65DC4A21F977BDD00C5F802 /* Assets.xcassets */,
+				0F236F31222DCF7A00229EA4 /* BirdTileSet.sks */,
 				A65DC4A41F977BDD00C5F802 /* LaunchScreen.storyboard */,
 				A65DC4A71F977BDD00C5F802 /* Info.plist */,
 			);
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A65DC48D1F977BDD00C5F802 /* Build configuration list for PBXProject "Birds" */;
+			buildConfigurationList = A65DC48D1F977BDD00C5F802 /* Build configuration list for PBXProject "AngryBirds" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,11 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F236F32222DCF7A00229EA4 /* BirdTileSet.sks in Resources */,
 				A65DC4A11F977BDD00C5F802 /* Main.storyboard in Resources */,
 				A65DC4981F977BDD00C5F802 /* GameScene.sks in Resources */,
 				A65DC4A31F977BDD00C5F802 /* Assets.xcassets in Resources */,
 				A65DC4A61F977BDD00C5F802 /* LaunchScreen.storyboard in Resources */,
-				A65DC49A1F977BDD00C5F802 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A65DC48D1F977BDD00C5F802 /* Build configuration list for PBXProject "Birds" */ = {
+		A65DC48D1F977BDD00C5F802 /* Build configuration list for PBXProject "AngryBirds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A65DC4A81F977BDD00C5F802 /* Debug */,
